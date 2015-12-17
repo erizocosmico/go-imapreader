@@ -46,8 +46,12 @@ var (
 // Reader is a client to read messages from an IMAP server
 // only contains the List operation as well as login and logout operations
 type Reader interface {
+	// Login logs in with the options provided using the connection established
+	// when the reader was created
 	Login() error
+	// Logout terminates the current "session"
 	Logout() error
+	// List retrieves the list of emails in a mailbox that satisfy the given search criteria
 	List(string, []imap.Field) ([]*Email, error)
 }
 
