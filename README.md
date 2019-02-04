@@ -1,17 +1,17 @@
-# go-imapreader [![Build Status](https://travis-ci.org/mvader/go-imapreader.svg?branch=master)](https://travis-ci.org/mvader/go-imapreader) [![GoDoc](https://godoc.org/github.com/mvader/go-imapreader?status.svg)](http://godoc.org/github.com/mvader/go-imapreader)
-Simple interface for reading IMAP emails in Golang
+# go-imapreader [![Build Status](https://travis-ci.org/erizocosmico/go-imapreader.svg?branch=master)](https://travis-ci.org/erizocosmico/go-imapreader) [![GoDoc](https://godoc.org/github.com/erizocosmico/go-imapreader?status.svg)](http://godoc.org/github.com/erizocosmico/go-imapreader)
+Simple interface for reading IMAP emails in Golang.
 
 ## Install
 
 ```
-go get gopkg.in/mvader/go-imapreader.v1
+go get github.com/erizocosmico/go-imapreader
 ```
 
 ## Usage
 
 ```go
 import (
-  "gopkg.in/mvader/go-imapreader.v1"
+  "github.com/erizocosmico/go-imapreader"
 )
 
 func main() {
